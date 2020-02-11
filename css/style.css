@@ -1,0 +1,220 @@
+/*RESET.CSS*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*END RESET.CSS*/
+
+
+.wrapper{
+    max-width: 1600px;
+	margin: 0 auto;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;;
+}
+
+header{
+    background-image: url('../img/container1_background.png');
+    max-height: 750px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header .header_top{
+    height: 62px;
+    background-color: #ffffff;
+}
+
+header .header_bottom{
+    height: 62px;
+    background-color: #5d5d5d;
+}
+
+.container1, .container1 .owl-carousel, .container1 .item{
+    height: calc(100vh - 124px);
+    max-height: 626px;    
+}
+
+.container1 .item{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container1 .item span{
+    font-size: 21px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 25vh;
+    text-transform: uppercase;
+}
+
+.container1 .item h1{
+    font-weight: 700;
+    font-size: 45px;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.container1 .item .btn{
+    display: inline-block;
+    margin-top: 4vh;
+    margin-bottom: 2vh;
+}
+
+.container1 .item .btn a{
+    text-decoration: none;
+    background-color: #c19864;
+    color: #ffffff;
+    padding: 18px 36px;
+    text-transform: uppercase;
+    
+}
+
+.container1 .owl-carousel button{
+    outline: none;
+}
+
+.container1 .owl-carousel .owl-dots{
+    position: absolute;
+    bottom: 4vh;
+    right: 0;
+    left: 0;
+}
+
+.container1 .owl-carousel .owl-dots .owl-dot span{
+    background-color: #9e9e9e;
+    height: 15px;
+    width: 15px;
+    
+}
+
+.container1 .owl-carousel .owl-dots .active span{
+    background-color: #c19864;
+}
+
+
+
+.container2 .left_block h2{
+    font-size: 24px;
+    font-weight: 400;
+    color: #353535;
+    text-transform: uppercase;
+}
+
+.container2 .left_block i{
+    display: block;
+    height: 1px;
+    width: 95px;
+    background-color: #c19864;
+}
+
+.container2 .left_block p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #353535;
+    line-height: 18px;
+}
+
+.container2 .left_block a{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 400;
+    color: #c19864;
+    letter-spacing: 2px;
+}
+
+.container2 .right_block{
+    text-align: right;
+    padding-right: 0;
+}
+
+.container2 .right_block img{
+    width: 100%;
+    max-width: 718px;
+}
+
+.container3{
+    text-align: center;
+    background-color: #f9f4f0;
+}
+
+.container3 h2{
+    font-size: 24px;
+    font-weight: 400;
+    color: #353535;
+    text-transform: uppercase;
+    margin-top: 12vh;
+    margin-bottom: 8vh;
+}
+
+.container3 .item{
+    margin-bottom: 12vh;
+}
+
+.container3 .item svg{
+    width: 80px;
+    font-size: 80px;
+    color: #f9f4f0;
+    background-color: #c19864;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.container3 .item h3{
+    font-size: 18px;
+    font-weight: 400;
+    color: #353535;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.container3 .item p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #353535;
+    line-height: 18px;
+}
