@@ -357,3 +357,161 @@ header .header_bottom{
     width: 100%;
     max-width: 126px;
 }
+
+.container6{
+    background-color: #f6f0e8;
+    padding-bottom: 5vh;
+    padding-top: 12vh;
+}
+
+.container6 h2{
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 9vh;
+    text-transform: uppercase;
+}
+
+.container6 .cards{
+    margin-bottom: 7vh;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.container6 .cards img{
+    width: 100%;
+    max-width: 162px;
+}
+
+.container6 .cards p{
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 2vh;
+    color: #333333;
+    text-align: center;
+}
+
+.container6 .descr{
+    margin-bottom: 3vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container6 .descr h4{
+    font-weight: 400;
+    font-size: 18px;
+    color: #353535;
+}
+
+.container6 .descr svg{
+    color: #efce4a;
+    margin-right: 10px;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.container6 .descr p{
+    font-weight: 400;
+    font-style: italic;
+    font-size: 14px;
+    color: #353535;
+    line-height: 24px;
+}
+
+.container7{
+    background-image: url('../img/container7_background.png');
+    width: 100%;
+    background-size: cover;
+    padding-top: 10vh;
+}
+
+.container7 .container7_center{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;    
+}
+
+.container7 .business{
+    max-width: 480px;
+}
+
+.container7 .business h3{
+    font-weight: 700;
+    font-size: 26px;
+    color: #cccccc;
+}
+
+.container7 .business p{
+    font-weight: 400;
+    font-size: 14px;
+    color: #f9f4f0;
+    line-height: 24px;
+}
+
+.container7 .business .number_of_followers{
+    font-weight: 400;
+    font-size: 14px;
+    color: #c19864;
+}
+
+.container7 .business i{
+    display: block;
+    background-color: #575654;
+    width: 100%;
+    height: 1px;
+}
+
+.container7 .business .social_network span{
+    font-weight: 400;
+    font-size: 15px;
+    color: #f9f4f0;
+}
+
+.container7 .business .social_network svg{
+    color: #c19864;
+    font-size: 16px;
+    margin-left: 15px;
+}
+
+.container7 form a{
+    text-decoration: none;
+    padding: 15px 38px;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 14px;
+    background-color: #c19864;
+}
+
+.container7 .blogs{
+
+}
+
+.container7 .instagram{
+    /* width: 100%;
+    max-width: 270px; */
+}
+
+.container7 .items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto auto;
+}
+
+
+
+@media (max-width: 768px){
+    
+
+    .container6 .cards{
+        margin-bottom: 3vh;
+    }
+
+    .container6 .descr{
+        margin-bottom: 8vh;
+    }
+
+
+}
