@@ -430,18 +430,23 @@ header .header_bottom{
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+}
+
+.container7 .container7_content{      
     display: flex;
     justify-content: space-between;    
 }
 
 .container7 .business{
     max-width: 480px;
+    margin-bottom: 4vh;
 }
 
 .container7 .business h3{
     font-weight: 700;
     font-size: 26px;
     color: #cccccc;
+    margin-bottom: 4vh;
 }
 
 .container7 .business p{
@@ -449,12 +454,14 @@ header .header_bottom{
     font-size: 14px;
     color: #f9f4f0;
     line-height: 24px;
+    margin-bottom: 6vh;
 }
 
 .container7 .business .number_of_followers{
     font-weight: 400;
     font-size: 14px;
     color: #c19864;
+    display: block;
 }
 
 .container7 .business i{
@@ -462,6 +469,12 @@ header .header_bottom{
     background-color: #575654;
     width: 100%;
     height: 1px;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.container7 .business .social_network{
+    margin-bottom: 4vh;
 }
 
 .container7 .business .social_network span{
@@ -477,33 +490,158 @@ header .header_bottom{
 }
 
 .container7 form a{
+    display: inline-block;
     text-decoration: none;
-    padding: 15px 38px;
+    padding: 14px 38px;
     color: #ffffff;
     font-weight: 700;
     font-size: 14px;
     background-color: #c19864;
+    text-transform: uppercase;
+    margin-left: -5px;
+    height: 40px;
+}
+
+.container7 form .btn{
+    margin: 0;
+    padding: 0;
+}
+
+.container7 .business form .email{
+    font-weight: 400;
+    font-size: 15px;
+    width: 230px;
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #e7e7e7;
+    margin-bottom: 2vh;
 }
 
 .container7 .blogs{
+    max-width: 330px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 4vh;
+}
 
+.container7 .blogs h3{
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #f9f4f0;
+    margin-bottom: 4vh;
+}
+
+.container7 .blogs .news{
+    display: flex;
+    margin-bottom: 3vh;
+}
+
+.container7 .blogs .news .descr{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 21px;
+}
+
+.container7 .blogs .news p{
+    font-weight: 400;
+    font-size: 12px;
+    color: #f9f4f0;
+    text-transform: uppercase;
+    line-height: 18px;
+}
+
+.container7 .blogs .news span{
+    font-weight: 400;
+    font-size: 13px;
+    color: #c19864;
 }
 
 .container7 .instagram{
-    /* width: 100%;
-    max-width: 270px; */
+    max-width: 270px;
+}
+
+.container7 .instagram h3{
+    font-weight: 400;
+    font-size: 14px;
+    color: #f9f4f0;
+    text-transform: uppercase;
+    margin-bottom: 4vh;
+}
+
+.container7 .instagram a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 13px;
+    color: #333333;
+    margin-top: 3vh;
+}
+
+.container7 .instagram a:hover{
+   color: #c19864;
 }
 
 .container7 .items{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto auto auto;
+    grid-template-rows: repeat(3, auto);
+    column-gap: 2px;
+    row-gap: 2px;
+}
+
+.container7 .items .item{
+    max-height: 88px;
+}
+
+.container7 .container7_center .last_line{
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #564838;
+}
+
+.container7 .container7_center .copyright{
+    font-weight: 400;
+    font-size: 14px;
+    color: #f9f4f0;
+    text-align: center;
+    margin-top: 3vh;
+    padding-bottom: 3vh;
 }
 
 
 
-@media (max-width: 768px){
-    
+
+
+@media (max-width: 1300px){
+
+    .container7 .container7_center{
+        width: 90%;
+    }
+
+}
+
+@media (max-width: 1200px){
+
+    .container7 .container7_content{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .container7 .business{
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .container7 .blogs {
+        margin-left: 0;
+        margin-right: 30px;
+    }
+
+}
+
+@media (max-width: 768px){    
 
     .container6 .cards{
         margin-bottom: 3vh;
@@ -513,5 +651,24 @@ header .header_bottom{
         margin-bottom: 8vh;
     }
 
+    .container7 .blogs {
+        margin-right: 0;
+    }
+
+    .container7 .instagram{
+        margin-bottom: 4vh;
+    }
+
+}
+
+@media (max-width: 576px){
+
+    .container7 .blogs {
+        margin-right: 0;
+    }
+
+    .container7 .business .social_network svg {
+        margin-left: 8px;
+    }
 
 }
