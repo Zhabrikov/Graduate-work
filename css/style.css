@@ -423,6 +423,8 @@ header .header_bottom .burger{
     height: 100%;
     outline: 1px solid rgba(109, 106, 101, 1);
     outline-offset: -20px;
+    max-width: 350px;
+    margin: 0 auto;
 }
 
 .container5 .item .img:hover .shadow, .container5 .item .img:hover .hover_effect_img{
